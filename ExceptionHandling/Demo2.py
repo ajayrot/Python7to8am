@@ -1,0 +1,13 @@
+
+no1 = int(input("1st No :"))
+no2 = int(input("2nd No :"))
+print("The Sum = ",no1+no2)
+
+try:
+    print("The Div = ",no1/no2)
+except ZeroDivisionError as zde:
+    print("Sorry U r Doing ",zde)
+
+print("The sub = ",no1-no2)
+print("The Mul = ",no1*no2)
+print("Thanks")
